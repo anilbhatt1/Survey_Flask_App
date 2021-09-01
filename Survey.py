@@ -120,7 +120,7 @@ def logout():
 def dashboard():
     return render_template('dashboard.html')
 
-# Delete an existing User
+# Delete an existing User from list
 @app.route('/delete/<int:id>')
 def delete(id):
     name = None
